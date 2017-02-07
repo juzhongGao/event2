@@ -1,0 +1,65 @@
+﻿Build started 2017/1/18 10:50:50.
+     1>Project "F:\android_work\event2\event2\event2.vcxproj" on node 2 (build target(s)).
+     1>Build:
+         ndk-build -C F:\android_work\event2\jni
+         make.exe: Entering directory `F:/android_work/event2/jni'
+         [armeabi] Compile thumb  : event2 <= buffer.c
+         [armeabi] Compile thumb  : event2 <= bufferevent.c
+         [armeabi] Compile thumb  : event2 <= bufferevent_filter.c
+         [armeabi] Compile thumb  : event2 <= bufferevent_pair.c
+         [armeabi] Compile thumb  : event2 <= bufferevent_ratelim.c
+         [armeabi] Compile thumb  : event2 <= bufferevent_sock.c
+         [armeabi] Compile thumb  : event2 <= epoll.c
+         [armeabi] Compile thumb  : event2 <= epoll_sub.c
+         [armeabi] Compile thumb  : event2 <= evdns.c
+         [armeabi] Compile thumb  : event2 <= event.c
+         [armeabi] Compile thumb  : event2 <= event_tagging.c
+         [armeabi] Compile thumb  : event2 <= evmap.c
+         [armeabi] Compile thumb  : event2 <= evrpc.c
+         [armeabi] Compile thumb  : event2 <= evthread.c
+         [armeabi] Compile thumb  : event2 <= evthread_pthread.c
+         [armeabi] Compile thumb  : event2 <= evutil.c
+         [armeabi] Compile thumb  : event2 <= evutil_rand.c
+         F:/android_work/event2//jni/evutil_rand.c: In function 'ev_arc4random_buf':
+         F:/android_work/event2//jni/evutil_rand.c:62:2: warning: 'return' with a value, in function returning void [enabled by default]
+         [armeabi] Compile thumb  : event2 <= http.c
+         [armeabi] Compile thumb  : event2 <= listener.c
+         [armeabi] Compile thumb  : event2 <= log.c
+         [armeabi] Compile thumb  : event2 <= poll.c
+         [armeabi] Compile thumb  : event2 <= select.c
+         [armeabi] Compile thumb  : event2 <= signal.c
+         [armeabi] Compile thumb  : event2 <= strlcpy.c
+         [armeabi] StaticLibrary  : libevent2.a
+         [x86] Compile        : event2 <= buffer.c
+         [x86] Compile        : event2 <= bufferevent.c
+         [x86] Compile        : event2 <= bufferevent_filter.c
+         [x86] Compile        : event2 <= bufferevent_pair.c
+         [x86] Compile        : event2 <= bufferevent_ratelim.c
+         [x86] Compile        : event2 <= bufferevent_sock.c
+         [x86] Compile        : event2 <= epoll.c
+         [x86] Compile        : event2 <= epoll_sub.c
+         [x86] Compile        : event2 <= evdns.c
+         [x86] Compile        : event2 <= event.c
+         [x86] Compile        : event2 <= event_tagging.c
+         [x86] Compile        : event2 <= evmap.c
+         [x86] Compile        : event2 <= evrpc.c
+         [x86] Compile        : event2 <= evthread.c
+         [x86] Compile        : event2 <= evthread_pthread.c
+         [x86] Compile        : event2 <= evutil.c
+         [x86] Compile        : event2 <= evutil_rand.c
+         F:/android_work/event2//jni/evutil_rand.c: In function 'ev_arc4random_buf':
+         F:/android_work/event2//jni/evutil_rand.c:62:2: warning: 'return' with a value, in function returning void [enabled by default]
+         [x86] Compile        : event2 <= http.c
+         [x86] Compile        : event2 <= listener.c
+         [x86] Compile        : event2 <= log.c
+         [x86] Compile        : event2 <= poll.c
+         [x86] Compile        : event2 <= select.c
+         [x86] Compile        : event2 <= signal.c
+         [x86] Compile        : event2 <= strlcpy.c
+         [x86] StaticLibrary  : libevent2.a
+         make.exe: Leaving directory `F:/android_work/event2/jni'
+     1>Done Building Project "F:\android_work\event2\event2\event2.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.90
